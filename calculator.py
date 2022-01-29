@@ -118,14 +118,14 @@ class Ui_MainWindow(object):
         self.pushButton_divide.setFont(font)
         self.pushButton_divide.setObjectName("pushButton_divide")
 
-        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.pressbutton("5"))
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.pressbutton("6"))
         self.pushButton_5.setGeometry(QtCore.QRect(92, 170, 75, 75))
         font = QtGui.QFont()
         font.setPointSize(26)
         self.pushButton_5.setFont(font)
         self.pushButton_5.setObjectName("pushButton_5")
 
-        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.pressbutton("6"))
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget,clicked=lambda: self.pressbutton("5"))
         self.pushButton_6.setGeometry(QtCore.QRect(12, 170, 75, 75))
         font = QtGui.QFont()
         font.setPointSize(26)
